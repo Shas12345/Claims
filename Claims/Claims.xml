@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Verifing Claims Option Provided In Left NavBar In RMS">
+    <classes>
+      <class name="claims.Verify_Claims_Option_Provided_In_Left_NavBar_In_RMS"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Creating a EEOC Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve ">
+    <classes>
+      <class name="claims.Creating_a_EEOC_Claim"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Creating a Professional Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve ">
+    <classes>
+      <class name="claims.Creating_a_Professional_Liability_Claim"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Creating a General Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve ">
+    <classes>
+      <class name="claims.Creating_a_General_Liability_Claim"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
