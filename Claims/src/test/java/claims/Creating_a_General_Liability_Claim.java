@@ -426,11 +426,11 @@ public class Creating_a_General_Liability_Claim extends BaseClass {
 				explicit.until(ExpectedConditions.elementToBeClickable(claimDetailCollapse));
 				driver.findElement(By.partialLinkText("Claim Details")).click();
 
-				WebElement manageExpenseSettlement = driver.findElement(By.partialLinkText("Manage Expense/Settlement"));
+				WebElement manageExpenseSettlement = driver.findElement(By.partialLinkText("Manage Expense/Settlement Paid"));
 				explicit.until(ExpectedConditions.elementToBeClickable(manageExpenseSettlement));
 				js.executeScript("arguments[0].scrollIntoView(true)", manageExpenseSettlement);
 
-				driver.findElement(By.partialLinkText("Manage Expense/Settlement")).click();
+				driver.findElement(By.partialLinkText("Manage Expense/Settlement Paid")).click();
 				extentTest.pass("Successfully Clicked on Expense/Settlement section under General Liability Claims Details");
 
 				WebElement addExpenseButton = driver
@@ -537,9 +537,9 @@ public class Creating_a_General_Liability_Claim extends BaseClass {
 
 				// Editing a Added Expense/Settlement
 
-				WebElement ManageExpense = driver.findElement(By.partialLinkText("Manage Expense/Settlement"));
+				WebElement ManageExpense = driver.findElement(By.partialLinkText("Manage Expense/Settlement Paid"));
 				explicit.until(ExpectedConditions.elementToBeClickable(ManageExpense));
-				driver.findElement(By.partialLinkText("Manage Expense/Settlement")).click();
+				driver.findElement(By.partialLinkText("Manage Expense/Settlement Paid")).click();
 
 				// Verifiying Invoice Number
 				WebElement editExpense = driver
@@ -586,7 +586,7 @@ public class Creating_a_General_Liability_Claim extends BaseClass {
 				
 				
 				//Deleting an added Manage Expense/Settlement 
-				WebElement ManageExpensetoDelete = driver.findElement(By.partialLinkText("Manage Expense/Settlement"));
+				WebElement ManageExpensetoDelete = driver.findElement(By.partialLinkText("Manage Expense/Settlement Paid"));
 				explicit.until(ExpectedConditions.elementToBeClickable(ManageExpensetoDelete));
 				driver.findElement(By.partialLinkText("Manage Expense/Settlement")).click();
 				

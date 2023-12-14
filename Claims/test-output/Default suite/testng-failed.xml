@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="claims.Verification_of_Dob_Field_In_General_Liability">
+      <class name="claims.Creating_a_EEOC_Claim">
         <methods>
           <include name="checkResult"/>
-          <include name="dobField"/>
+          <include name="submittingaEEOCForm" invocation-numbers="0"/>
           <include name="initialiseExtendReports"/>
           <include name="generateExtentReports"/>
           <include name="driver"/>
           <include name="quit"/>
         </methods>
-      </class> <!-- claims.Verification_of_Dob_Field_In_General_Liability -->
+      </class> <!-- claims.Creating_a_EEOC_Claim -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

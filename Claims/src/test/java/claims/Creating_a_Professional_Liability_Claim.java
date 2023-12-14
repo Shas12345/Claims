@@ -430,12 +430,12 @@ public class Creating_a_Professional_Liability_Claim extends BaseClass {
 		explicit.until(ExpectedConditions.elementToBeClickable(claimDetailCollapse));
 		driver.findElement(By.partialLinkText("Claim Details")).click();
 
-		WebElement manageExpenseSettlement = driver.findElement(By.partialLinkText("Manage Expense/Settlement"));
+		WebElement manageExpenseSettlement = driver.findElement(By.partialLinkText("Manage Expense/Settlement Paid"));
 		explicit.until(ExpectedConditions.elementToBeClickable(manageExpenseSettlement));
 		js.executeScript("arguments[0].scrollIntoView(true)", manageExpenseSettlement);
 
-		driver.findElement(By.partialLinkText("Manage Expense/Settlement")).click();
-		extentTest.pass("Successfully Clicked on Expense/Settlement section under Professional Liability Claims Details");
+		driver.findElement(By.partialLinkText("Manage Expense/Settlement Paid")).click();
+		extentTest.pass("Successfully Clicked on Manage Expense/Settlement Paid  section under Professional Liability Claims Details");
 
 		WebElement addExpenseButton = driver
 				.findElement(By.xpath("(//button[contains(@class,'btn btn-sm btn-success btn-white btn-round')])[1]"));
@@ -541,7 +541,7 @@ public class Creating_a_Professional_Liability_Claim extends BaseClass {
 
 		// Editing a Added Expense/Settlement
 
-		WebElement ManageExpense = driver.findElement(By.partialLinkText("Manage Expense/Settlement"));
+		WebElement ManageExpense = driver.findElement(By.partialLinkText("Manage Expense/Settlement Paid"));
 		explicit.until(ExpectedConditions.elementToBeClickable(ManageExpense));
 		driver.findElement(By.partialLinkText("Manage Expense/Settlement")).click();
 
@@ -590,9 +590,9 @@ public class Creating_a_Professional_Liability_Claim extends BaseClass {
 		
 		
 		//Deleting an added Manage Expense/Settlement 
-		WebElement ManageExpensetoDelete = driver.findElement(By.partialLinkText("Manage Expense/Settlement"));
+		WebElement ManageExpensetoDelete = driver.findElement(By.partialLinkText("Manage Expense/Settlement Paid"));
 		explicit.until(ExpectedConditions.elementToBeClickable(ManageExpensetoDelete));
-		driver.findElement(By.partialLinkText("Manage Expense/Settlement")).click();
+		driver.findElement(By.partialLinkText("Manage Expense/Settlement Paid")).click();
 		
 		WebElement deleteExpense = driver
 				.findElement(By.xpath("//a[text()='" + invoiceNumberData + "']/../../..//i[@title='Delete']"));

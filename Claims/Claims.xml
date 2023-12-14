@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Verifing Claims Option Provided In Left NavBar In RMS">
+   <test thread-count="5" name="Verify Claims Option Provided In Left NavBar In RMS">
     <classes>
       <class name="claims.Verify_Claims_Option_Provided_In_Left_NavBar_In_RMS"/>
     </classes>
