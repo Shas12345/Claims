@@ -440,7 +440,7 @@ public class Creating_a_Professional_Liability_Claim extends BaseClass {
 		WebElement addExpenseButton = driver
 				.findElement(By.xpath("(//button[contains(@class,'btn btn-sm btn-success btn-white btn-round')])[1]"));
 		js.executeScript("arguments[0].scrollIntoView(false)", addExpenseButton);
-		explicit.until(ExpectedConditions.elementToBeClickable(addExpenseButton));
+	//	explicit.until(ExpectedConditions.elementToBeClickable(addExpenseButton));
 		extentTest.pass("Successfully Clicked on Add Expense/Settlement button under Professional Liability Claims Details");
 		driver.findElement(By.xpath("(//button[contains(@class,'btn btn-sm btn-success btn-white btn-round')])[1]"))
 				.click();
@@ -674,9 +674,9 @@ explicit.until(ExpectedConditions.elementToBeClickable(expenseReserveforEdit));
 driver.findElement(By.partialLinkText("Manage Expense/Settlement Reserve")).click();
 
 
-WebElement editReserve = driver.findElement(By.xpath("//span[text()='"+reserveonAddReservePage+"']/../..//i[@title='Edit expense']"));
+WebElement editReserve = driver.findElement(By.xpath("//span[contains(text(),'"+reserveonAddReservePage+"')]/../..//i[@title='Edit expense']"));
 explicit.until(ExpectedConditions.elementToBeClickable(editReserve));
-driver.findElement(By.xpath("//span[text()='"+reserveonAddReservePage+"']/../..//i[@title='Edit expense']")).click();
+driver.findElement(By.xpath("//span[contains(text(),'"+reserveonAddReservePage+"')]/../..//i[@title='Edit expense']")).click();
 
 String dateonEditReservePopup = driver.findElement(By.id("PaymentDate")).getAttribute("value");
 softassert.assertEquals(dateonAddReservePage, dateonEditReservePopup,"Date data is not matching on Edit Reserve Popup");
@@ -702,9 +702,9 @@ WebElement expenseReserveforDelete = driver.findElement(By.partialLinkText("Mana
 explicit.until(ExpectedConditions.elementToBeClickable(expenseReserveforDelete));
 driver.findElement(By.partialLinkText("Manage Expense/Settlement Reserve")).click();
 
-WebElement deleteReserve = driver.findElement(By.xpath("//span[text()='"+reserveonUpdatedPage+"']/../..//i[@title='Delete']"));
+WebElement deleteReserve = driver.findElement(By.xpath("//span[contains(text(),'"+reserveonUpdatedPage+"')]/../..//i[@title='Delete']"));
 explicit.until(ExpectedConditions.elementToBeClickable(deleteReserve));
-driver.findElement(By.xpath("//span[text()='"+reserveonUpdatedPage+"']/../..//i[@title='Delete']")).click();
+driver.findElement(By.xpath("//span[contains(text(),'"+reserveonUpdatedPage+"')]/../..//i[@title='Delete']")).click();
 
 driver.findElement(By.xpath("//span[text()='YES']")).click();
 

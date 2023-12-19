@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="claims.Creating_a_EEOC_Claim">
+      <class name="claims.Creating_a_Professional_Liability_Claim">
         <methods>
           <include name="checkResult"/>
           <include name="submittingaEEOCForm" invocation-numbers="0"/>
@@ -12,7 +12,7 @@
           <include name="driver"/>
           <include name="quit"/>
         </methods>
-      </class> <!-- claims.Creating_a_EEOC_Claim -->
+      </class> <!-- claims.Creating_a_Professional_Liability_Claim -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

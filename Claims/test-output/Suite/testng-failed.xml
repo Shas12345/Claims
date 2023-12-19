@@ -15,20 +15,6 @@
       </class> <!-- claims.Creating_a_EEOC_Claim -->
     </classes>
   </test> <!-- Creating a EEOC Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve (failed) -->
-  <test thread-count="5" name="Creating a Professional Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve (failed)">
-    <classes>
-      <class name="claims.Creating_a_Professional_Liability_Claim">
-        <methods>
-          <include name="checkResult"/>
-          <include name="submittingaEEOCForm" invocation-numbers="0"/>
-          <include name="initialiseExtendReports"/>
-          <include name="generateExtentReports"/>
-          <include name="driver"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- claims.Creating_a_Professional_Liability_Claim -->
-    </classes>
-  </test> <!-- Creating a Professional Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve (failed) -->
   <test thread-count="5" name="Creating a General Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve (failed)">
     <classes>
       <class name="claims.Creating_a_General_Liability_Claim">

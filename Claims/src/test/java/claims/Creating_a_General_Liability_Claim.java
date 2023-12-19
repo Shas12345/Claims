@@ -670,9 +670,9 @@ public class Creating_a_General_Liability_Claim extends BaseClass {
 		driver.findElement(By.partialLinkText("Manage Expense/Settlement Reserve")).click();
 
 
-		WebElement editReserve = driver.findElement(By.xpath("//span[text()='"+reserveonAddReservePage+"']/../..//i[@title='Edit expense']"));
+		WebElement editReserve = driver.findElement(By.xpath("//span[contains(text(),'"+reserveonAddReservePage+"')]/../..//i[@title='Edit expense']"));
 		explicit.until(ExpectedConditions.elementToBeClickable(editReserve));
-		driver.findElement(By.xpath("//span[text()='"+reserveonAddReservePage+"']/../..//i[@title='Edit expense']")).click();
+		driver.findElement(By.xpath("//span[contains(text(),'"+reserveonAddReservePage+"')]/../..//i[@title='Edit expense']")).click();
 
 		String dateonEditReservePopup = driver.findElement(By.id("PaymentDate")).getAttribute("value");
 		softassert.assertEquals(dateonAddReservePage, dateonEditReservePopup,"Date data is not matching on Edit Reserve Popup");
@@ -698,9 +698,9 @@ public class Creating_a_General_Liability_Claim extends BaseClass {
 		explicit.until(ExpectedConditions.elementToBeClickable(expenseReserveforDelete));
 		driver.findElement(By.partialLinkText("Manage Expense/Settlement Reserve")).click();
 
-		WebElement deleteReserve = driver.findElement(By.xpath("//span[text()='"+reserveDataonEditReservePage+"']/../..//i[@title='Delete']"));
+		WebElement deleteReserve = driver.findElement(By.xpath("//span[contains(text(),'"+reserveDataonEditReservePage+"')]/../..//i[@title='Delete']"));
 		explicit.until(ExpectedConditions.elementToBeClickable(deleteReserve));
-		driver.findElement(By.xpath("//span[text()='"+reserveDataonEditReservePage+"']/../..//i[@title='Delete']")).click();
+		driver.findElement(By.xpath("//span[contains(text(),'"+reserveDataonEditReservePage+"')]/../..//i[@title='Delete']")).click();
 
 		driver.findElement(By.xpath("//span[text()='YES']")).click();
 
