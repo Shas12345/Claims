@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome Browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigated to the url]]>
+    </line>
+    <line>
+      <![CDATA[UserId TextBox is provided in login page]]>
+    </line>
+    <line>
+      <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+    </line>
+    <line>
+      <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Login button in login page]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigated to home page of the application]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigated to Incident Management System page]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigated to the url]]>
+    </line>
+    <line>
+      <![CDATA[UserId TextBox is provided in login page]]>
+    </line>
+    <line>
+      <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+    </line>
+    <line>
+      <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Login button in login page]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigated to home page of the application]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigated to Incident Management System page]]>
+    </line>
+    <line>
+      <![CDATA[Captured Data of Entered By Text box in EEOC New Claim is System Admin]]>
+    </line>
+    <line>
+      <![CDATA[Title Textbox is provided for attachment popup]]>
+    </line>
+    <line>
+      <![CDATA[File Choosen button is provided for attachment popup for EEOC Claim]]>
+    </line>
+    <line>
+      <![CDATA[File Upload button is provided for attachment popup for EEOC Claim]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully Added a attachment to the EEOC Claim]]>
+    </line>
+    <line>
+      <![CDATA[Verifyed action arrow button for EEOC Claim in Claim list page]]>
+    </line>
+    <line>
+      <![CDATA[Delete button is provided for attachment popup for EEOC Claim]]>
+    </line>
+    <line>
+      <![CDATA[Attachement removed Successfully for EEOC Claim×
+Close
+Attachment has been removed]]>
+    </line>
+    <line>
+      <![CDATA[File Choosen button is provided for Add Expense/Settlement popup for EEOC Claim]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigated to the url]]>
+    </line>
+    <line>
+      <![CDATA[UserId TextBox is provided in login page]]>
+    </line>
+    <line>
+      <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+    </line>
+    <line>
+      <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Login button in login page]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigated to home page of the application]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigated to Incident Management System page]]>
+    </line>
+    <line>
+      <![CDATA[Captured Data of Entered By Text box in EEOC New Claim is System Admin]]>
+    </line>
+    <line>
+      <![CDATA[Title Textbox is provided for attachment popup]]>
+    </line>
+    <line>
+      <![CDATA[File Choosen button is provided for attachment popup for Professional Liability Claim]]>
+    </line>
+    <line>
+      <![CDATA[File Upload button is provided for attachment popup for Professional Liability Claim]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully Added a attachment to the Professional Liability Claim]]>
+    </line>
+    <line>
+      <![CDATA[Verifyed action arrow button for Professional Liability Claim in Claim list page]]>
+    </line>
+    <line>
+      <![CDATA[Delete button is provided for attachment popup for Professional Liability Claim]]>
+    </line>
+    <line>
+      <![CDATA[Attachement removed Successfully for Professional Liability Claim×
+Close
+Attachment has been removed]]>
+    </line>
+    <line>
+      <![CDATA[File Choosen button is provided for Add Expense/Settlement popup for Professional Liability Claim]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigated to the url]]>
+    </line>
+    <line>
+      <![CDATA[UserId TextBox is provided in login page]]>
+    </line>
+    <line>
+      <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+    </line>
+    <line>
+      <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Login button in login page]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigated to home page of the application]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigated to Incident Management System page]]>
+    </line>
+    <line>
+      <![CDATA[Captured Data of Entered By Text box in EEOC New Claim is System Admin]]>
+    </line>
+    <line>
+      <![CDATA[Title Textbox is provided for attachment popup]]>
+    </line>
+    <line>
+      <![CDATA[File Choosen button is provided for attachment popup for General Liability Claim]]>
+    </line>
+    <line>
+      <![CDATA[File Upload button is provided for attachment popup for General Liability Claim]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully Added a attachment to the General Liability Claim]]>
+    </line>
+    <line>
+      <![CDATA[Verifyed action arrow button for General Liability Claim in Claim list page]]>
+    </line>
+    <line>
+      <![CDATA[Delete button is provided for attachment popup for General Liability Claim]]>
+    </line>
+    <line>
+      <![CDATA[Attachement removed Successfully for General Liability Claim×
+Close
+Attachment has been removed]]>
+    </line>
+    <line>
+      <![CDATA[File Choosen button is provided for Add Expense/Settlement popup for General Liability Claim]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-19T13:04:09 IST" name="Suite" finished-at="2023-12-19T13:08:44 IST" duration-ms="274621">
+    <groups>
+    </groups>
+    <test started-at="2023-12-19T13:04:09 IST" name="Verify Claims Option Provided In Left NavBar In RMS" finished-at="2023-12-19T13:04:53 IST" duration-ms="44408">
+      <class name="claims.Verify_Claims_Option_Provided_In_Left_NavBar_In_RMS">
+        <test-method is-config="true" signature="driver(org.testng.ITestContext,java.lang.String)[pri:0, instance:claims.Verify_Claims_Option_Provided_In_Left_NavBar_In_RMS@209da20d]" started-at="2023-12-19T13:04:09 IST" name="driver" finished-at="2023-12-19T13:04:29 IST" duration-ms="19679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69d145f6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigated to the url]]>
+            </line>
+            <line>
+              <![CDATA[UserId TextBox is provided in login page]]>
+            </line>
+            <line>
+              <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+            </line>
+            <line>
+              <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Login button in login page]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigated to home page of the application]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigated to Incident Management System page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driver -->
+        <test-method signature="claimsOption()[pri:0, instance:claims.Verify_Claims_Option_Provided_In_Left_NavBar_In_RMS@209da20d]" started-at="2023-12-19T13:04:29 IST" name="claimsOption" finished-at="2023-12-19T13:04:53 IST" duration-ms="24476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- claimsOption -->
+        <test-method is-config="true" signature="checkResult(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:claims.Verify_Claims_Option_Provided_In_Left_NavBar_In_RMS@209da20d]" started-at="2023-12-19T13:04:53 IST" name="checkResult" finished-at="2023-12-19T13:04:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void claims.Verify_Claims_Option_Provided_In_Left_NavBar_In_RMS.claimsOption() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=claimsOption status=SUCCESS method=Verify_Claims_Option_Provided_In_Left_NavBar_In_RMS.claimsOption()[pri:0, instance:claims.Verify_Claims_Option_Provided_In_Left_NavBar_In_RMS@209da20d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:claims.Verify_Claims_Option_Provided_In_Left_NavBar_In_RMS@209da20d]" started-at="2023-12-19T13:04:53 IST" name="quit" finished-at="2023-12-19T13:04:53 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- claims.Verify_Claims_Option_Provided_In_Left_NavBar_In_RMS -->
+    </test> <!-- Verify Claims Option Provided In Left NavBar In RMS -->
+    <test started-at="2023-12-19T13:04:53 IST" name="Creating a EEOC Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve " finished-at="2023-12-19T13:06:02 IST" duration-ms="68263">
+      <class name="claims.Creating_a_EEOC_Claim">
+        <test-method is-config="true" signature="driver(org.testng.ITestContext,java.lang.String)[pri:0, instance:claims.Creating_a_EEOC_Claim@52b1beb6]" started-at="2023-12-19T13:04:53 IST" name="driver" finished-at="2023-12-19T13:05:10 IST" duration-ms="16093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a5e0faf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigated to the url]]>
+            </line>
+            <line>
+              <![CDATA[UserId TextBox is provided in login page]]>
+            </line>
+            <line>
+              <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+            </line>
+            <line>
+              <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Login button in login page]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigated to home page of the application]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigated to Incident Management System page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driver -->
+        <test-method signature="submittingaEEOCForm([Ljava.lang.String;)[pri:0, instance:claims.Creating_a_EEOC_Claim@52b1beb6]" started-at="2023-12-19T13:05:10 IST" name="submittingaEEOCForm" data-provider="getData" finished-at="2023-12-19T13:06:02 IST" duration-ms="51223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7956f93a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captured Data of Entered By Text box in EEOC New Claim is System Admin]]>
+            </line>
+            <line>
+              <![CDATA[Title Textbox is provided for attachment popup]]>
+            </line>
+            <line>
+              <![CDATA[File Choosen button is provided for attachment popup for EEOC Claim]]>
+            </line>
+            <line>
+              <![CDATA[File Upload button is provided for attachment popup for EEOC Claim]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully Added a attachment to the EEOC Claim]]>
+            </line>
+            <line>
+              <![CDATA[Verifyed action arrow button for EEOC Claim in Claim list page]]>
+            </line>
+            <line>
+              <![CDATA[Delete button is provided for attachment popup for EEOC Claim]]>
+            </line>
+            <line>
+              <![CDATA[Attachement removed Successfully for EEOC Claim×
+Close
+Attachment has been removed]]>
+            </line>
+            <line>
+              <![CDATA[File Choosen button is provided for Add Expense/Settlement popup for EEOC Claim]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- submittingaEEOCForm -->
+        <test-method is-config="true" signature="checkResult(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:claims.Creating_a_EEOC_Claim@52b1beb6]" started-at="2023-12-19T13:06:02 IST" name="checkResult" finished-at="2023-12-19T13:06:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void claims.Creating_a_EEOC_Claim.submittingaEEOCForm(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=submittingaEEOCForm status=SUCCESS method=Creating_a_EEOC_Claim.submittingaEEOCForm([Ljava.lang.String;)[pri:0, instance:claims.Creating_a_EEOC_Claim@52b1beb6] output=Captured Data of Entered By Text box in EEOC New Claim is System Admin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:claims.Creating_a_EEOC_Claim@52b1beb6]" started-at="2023-12-19T13:06:02 IST" name="quit" finished-at="2023-12-19T13:06:02 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- claims.Creating_a_EEOC_Claim -->
+    </test> <!-- Creating a EEOC Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve  -->
+    <test started-at="2023-12-19T13:06:02 IST" name="Creating a Professional Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve " finished-at="2023-12-19T13:07:21 IST" duration-ms="79170">
+      <class name="claims.Creating_a_Professional_Liability_Claim">
+        <test-method is-config="true" signature="driver(org.testng.ITestContext,java.lang.String)[pri:0, instance:claims.Creating_a_Professional_Liability_Claim@771a660]" started-at="2023-12-19T13:06:02 IST" name="driver" finished-at="2023-12-19T13:06:21 IST" duration-ms="18912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@680408ac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigated to the url]]>
+            </line>
+            <line>
+              <![CDATA[UserId TextBox is provided in login page]]>
+            </line>
+            <line>
+              <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+            </line>
+            <line>
+              <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Login button in login page]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigated to home page of the application]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigated to Incident Management System page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driver -->
+        <test-method signature="submittingaEEOCForm([Ljava.lang.String;)[pri:0, instance:claims.Creating_a_Professional_Liability_Claim@771a660]" started-at="2023-12-19T13:06:21 IST" name="submittingaEEOCForm" data-provider="getData" finished-at="2023-12-19T13:07:21 IST" duration-ms="59984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@50f13494]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captured Data of Entered By Text box in EEOC New Claim is System Admin]]>
+            </line>
+            <line>
+              <![CDATA[Title Textbox is provided for attachment popup]]>
+            </line>
+            <line>
+              <![CDATA[File Choosen button is provided for attachment popup for Professional Liability Claim]]>
+            </line>
+            <line>
+              <![CDATA[File Upload button is provided for attachment popup for Professional Liability Claim]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully Added a attachment to the Professional Liability Claim]]>
+            </line>
+            <line>
+              <![CDATA[Verifyed action arrow button for Professional Liability Claim in Claim list page]]>
+            </line>
+            <line>
+              <![CDATA[Delete button is provided for attachment popup for Professional Liability Claim]]>
+            </line>
+            <line>
+              <![CDATA[Attachement removed Successfully for Professional Liability Claim×
+Close
+Attachment has been removed]]>
+            </line>
+            <line>
+              <![CDATA[File Choosen button is provided for Add Expense/Settlement popup for Professional Liability Claim]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- submittingaEEOCForm -->
+        <test-method is-config="true" signature="checkResult(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:claims.Creating_a_Professional_Liability_Claim@771a660]" started-at="2023-12-19T13:07:21 IST" name="checkResult" finished-at="2023-12-19T13:07:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void claims.Creating_a_Professional_Liability_Claim.submittingaEEOCForm(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=submittingaEEOCForm status=SUCCESS method=Creating_a_Professional_Liability_Claim.submittingaEEOCForm([Ljava.lang.String;)[pri:0, instance:claims.Creating_a_Professional_Liability_Claim@771a660] output=Captured Data of Entered By Text box in EEOC New Claim is System Admin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:claims.Creating_a_Professional_Liability_Claim@771a660]" started-at="2023-12-19T13:07:21 IST" name="quit" finished-at="2023-12-19T13:07:21 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- claims.Creating_a_Professional_Liability_Claim -->
+    </test> <!-- Creating a Professional Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve  -->
+    <test started-at="2023-12-19T13:07:21 IST" name="Creating a General Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve " finished-at="2023-12-19T13:08:44 IST" duration-ms="82741">
+      <class name="claims.Creating_a_General_Liability_Claim">
+        <test-method is-config="true" signature="initialiseExtendReports()[pri:0, instance:claims.Creating_a_General_Liability_Claim@1ed6388a]" started-at="2023-12-19T13:04:09 IST" name="initialiseExtendReports" finished-at="2023-12-19T13:04:09 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseExtendReports -->
+        <test-method is-config="true" signature="driver(org.testng.ITestContext,java.lang.String)[pri:0, instance:claims.Creating_a_General_Liability_Claim@1ed6388a]" started-at="2023-12-19T13:07:21 IST" name="driver" finished-at="2023-12-19T13:07:41 IST" duration-ms="19828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@73cd3b8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigated to the url]]>
+            </line>
+            <line>
+              <![CDATA[UserId TextBox is provided in login page]]>
+            </line>
+            <line>
+              <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+            </line>
+            <line>
+              <![CDATA[Place Holder is provided for UserId TextBox in login page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Login button in login page]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigated to home page of the application]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigated to Incident Management System page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driver -->
+        <test-method signature="submittingaEEOCForm([Ljava.lang.String;)[pri:0, instance:claims.Creating_a_General_Liability_Claim@1ed6388a]" started-at="2023-12-19T13:07:41 IST" name="submittingaEEOCForm" data-provider="getData" finished-at="2023-12-19T13:08:43 IST" duration-ms="62649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@34ac72c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captured Data of Entered By Text box in EEOC New Claim is System Admin]]>
+            </line>
+            <line>
+              <![CDATA[Title Textbox is provided for attachment popup]]>
+            </line>
+            <line>
+              <![CDATA[File Choosen button is provided for attachment popup for General Liability Claim]]>
+            </line>
+            <line>
+              <![CDATA[File Upload button is provided for attachment popup for General Liability Claim]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully Added a attachment to the General Liability Claim]]>
+            </line>
+            <line>
+              <![CDATA[Verifyed action arrow button for General Liability Claim in Claim list page]]>
+            </line>
+            <line>
+              <![CDATA[Delete button is provided for attachment popup for General Liability Claim]]>
+            </line>
+            <line>
+              <![CDATA[Attachement removed Successfully for General Liability Claim×
+Close
+Attachment has been removed]]>
+            </line>
+            <line>
+              <![CDATA[File Choosen button is provided for Add Expense/Settlement popup for General Liability Claim]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- submittingaEEOCForm -->
+        <test-method is-config="true" signature="checkResult(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:claims.Creating_a_General_Liability_Claim@1ed6388a]" started-at="2023-12-19T13:08:43 IST" name="checkResult" finished-at="2023-12-19T13:08:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void claims.Creating_a_General_Liability_Claim.submittingaEEOCForm(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=submittingaEEOCForm status=SUCCESS method=Creating_a_General_Liability_Claim.submittingaEEOCForm([Ljava.lang.String;)[pri:0, instance:claims.Creating_a_General_Liability_Claim@1ed6388a] output=Captured Data of Entered By Text box in EEOC New Claim is System Admin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:claims.Creating_a_General_Liability_Claim@1ed6388a]" started-at="2023-12-19T13:08:43 IST" name="quit" finished-at="2023-12-19T13:08:44 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:claims.Creating_a_General_Liability_Claim@1ed6388a]" started-at="2023-12-19T13:08:44 IST" name="generateExtentReports" finished-at="2023-12-19T13:08:44 IST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReports -->
+      </class> <!-- claims.Creating_a_General_Liability_Claim -->
+    </test> <!-- Creating a General Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve  -->
+  </suite> <!-- Suite -->
+</testng-results>

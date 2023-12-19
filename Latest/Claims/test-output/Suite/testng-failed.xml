@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Creating a EEOC Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve (failed)">
+    <classes>
+      <class name="claims.Creating_a_EEOC_Claim">
+        <methods>
+          <include name="checkResult"/>
+          <include name="submittingaEEOCForm" invocation-numbers="0"/>
+          <include name="initialiseExtendReports"/>
+          <include name="generateExtentReports"/>
+          <include name="driver"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- claims.Creating_a_EEOC_Claim -->
+    </classes>
+  </test> <!-- Creating a EEOC Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve (failed) -->
+  <test thread-count="5" name="Creating a General Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve (failed)">
+    <classes>
+      <class name="claims.Creating_a_General_Liability_Claim">
+        <methods>
+          <include name="submittingaEEOCForm" invocation-numbers="0"/>
+          <include name="checkResult"/>
+          <include name="initialiseExtendReports"/>
+          <include name="generateExtentReports"/>
+          <include name="driver"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- claims.Creating_a_General_Liability_Claim -->
+    </classes>
+  </test> <!-- Creating a General Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve (failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,2392 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Healthdox Automation Testing</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css">.badge-primary{background-color:#c50f7c}</style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Claims Test Results</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 19, 2023 01:04:09 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('device-view')">
+<a id="nav-device" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tablet"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Shashank</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tablet"></i></a>
+<ul id="device-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">chrome120</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="Shashank"
+          tag=""
+          device="chrome120">
+          <div class="test-detail">
+            <p class="name">Verify Claims Option Provided In Left NavBar In RMS</p>
+            <p class="text-sm">
+              <span>1:04:09 PM</span> / <span>00:00:44:166</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Claims Option Provided In Left NavBar In RMS</h5>
+<span class='badge badge-success'>12.19.2023 1:04:09 PM</span>
+<span class='badge badge-danger'>12.19.2023 1:04:53 PM</span>
+<span class='badge badge-default'>00:00:44:166</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Shashank</span>
+<span class="badge badge-pill badge-default">chrome120</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:04:10 PM</td>
+        <td>
+          Chrome Browser launched successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:04:15 PM</td>
+        <td>
+          Successfully navigated to the url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:15 PM</td>
+        <td>
+          Title Matched
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:15 PM</td>
+        <td>
+          UserId TextBox is provided in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:15 PM</td>
+        <td>
+          Place Holder is provided for UserId TextBox in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:15 PM</td>
+        <td>
+          password TextBox is provided in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:15 PM</td>
+        <td>
+          Place Holder is provided for UserId TextBox in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:15 PM</td>
+        <td>
+          Clicked on Login button in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:04:29 PM</td>
+        <td>
+          Successfully navigated to home page of the application
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:04:29 PM</td>
+        <td>
+          Successfully navigated to Incident Management System page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:45 PM</td>
+        <td>
+          New Claims Dropdown is provided in RMS Home page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:45 PM</td>
+        <td>
+          New EEOC Claims option is provided in the New Claims Dropdown in RMS Home Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:50 PM</td>
+        <td>
+          New General Claim option is provided in the New Claims Dropdown in RMS Home Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:51 PM</td>
+        <td>
+          New Professional Claim option is provided in the New Claims Dropdown in RMS Home Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:52 PM</td>
+        <td>
+          Claims option is provided in Left Nav Bar of RMS Home Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:53 PM</td>
+        <td>
+          claimsOption is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="Shashank"
+          tag=""
+          device="chrome120">
+          <div class="test-detail">
+            <p class="name">Creating a EEOC Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve </p>
+            <p class="text-sm">
+              <span>1:04:53 PM</span> / <span>00:01:08:028</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Creating a EEOC Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve </h5>
+<span class='badge badge-success'>12.19.2023 1:04:53 PM</span>
+<span class='badge badge-danger'>12.19.2023 1:06:02 PM</span>
+<span class='badge badge-default'>00:01:08:028</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Shashank</span>
+<span class="badge badge-pill badge-default">chrome120</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:04:54 PM</td>
+        <td>
+          Chrome Browser launched successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:04:58 PM</td>
+        <td>
+          Successfully navigated to the url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:58 PM</td>
+        <td>
+          Title Matched
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:58 PM</td>
+        <td>
+          UserId TextBox is provided in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:58 PM</td>
+        <td>
+          Place Holder is provided for UserId TextBox in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:58 PM</td>
+        <td>
+          password TextBox is provided in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:58 PM</td>
+        <td>
+          Place Holder is provided for UserId TextBox in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:04:59 PM</td>
+        <td>
+          Clicked on Login button in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:05:09 PM</td>
+        <td>
+          Successfully navigated to home page of the application
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:05:10 PM</td>
+        <td>
+          Successfully navigated to Incident Management System page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:17 PM</td>
+        <td>
+          Successfully verified New Claim Option in Left Nav Bar of RMS Home Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:18 PM</td>
+        <td>
+          Successfully verified EEOC Claim Option Under New Claim in Left Nav Bar of RMS Home Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:18 PM</td>
+        <td>
+          Successfully verified Name Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:18 PM</td>
+        <td>
+          Successfully verified Name TextBox for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:18 PM</td>
+        <td>
+          Successfully verified Date of Incident Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:19 PM</td>
+        <td>
+          Successfully verified Date of Incident TextBox for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:19 PM</td>
+        <td>
+          Successfully verified Date of Entered By Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:19 PM</td>
+        <td>
+          Successfully verified Entered By TextBox for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:05:19 PM</td>
+        <td>
+          Captured Data of Entered By Text box in EEOC New Claim is System Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:19 PM</td>
+        <td>
+          Successfully verified EEOC # Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:19 PM</td>
+        <td>
+          Successfully verified EEOC # TextBox for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:19 PM</td>
+        <td>
+          Successfully verified Litigation Claim # Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:20 PM</td>
+        <td>
+          Successfully verified Litigation Claim # TextBox for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:20 PM</td>
+        <td>
+          Successfully verified Date Filed Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:20 PM</td>
+        <td>
+          Successfully verified Date Filed TextBox for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:20 PM</td>
+        <td>
+          Successfully verified Date Closed Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:20 PM</td>
+        <td>
+          Successfully verified Date Closed TextBox for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:20 PM</td>
+        <td>
+          Successfully verified Department TextBox for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:21 PM</td>
+        <td>
+          Successfully verified Attorney Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:21 PM</td>
+        <td>
+          Successfully verified Attorney TextBox for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:21 PM</td>
+        <td>
+          Successfully verified Discrimination Charge Dropdown for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:21 PM</td>
+        <td>
+          Successfully verified Full Description Report Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:21 PM</td>
+        <td>
+          Successfully verified Full Description Report TextBox for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:21 PM</td>
+        <td>
+          Successfully verified Settlement Reserve Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:21 PM</td>
+        <td>
+          Successfully verified Settlement Reserve TextBox for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:22 PM</td>
+        <td>
+          Successfully verified Settlement Reserve Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:22 PM</td>
+        <td>
+          Successfully verified Settlement Reserve TextBox for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:22 PM</td>
+        <td>
+          Successfully verified Settlement Reserve Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:26 PM</td>
+        <td>
+          Title Textbox is provided for attachment popup for EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:26 PM</td>
+        <td>
+          File Choosen button is provided for attachment popup for EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:27 PM</td>
+        <td>
+          File Upload button is provided for attachment popup for EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:29 PM</td>
+        <td>
+          Sucessfully Added a attachment to the EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:05:29 PM</td>
+        <td>
+          Verifyed attachment icon button under Actions for EEOC Claim in Claim list page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:29 PM</td>
+        <td>
+          Delete button is provided for attachment popup for EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:36 PM</td>
+        <td>
+          Attachement removed Successfully for EEOC Claim×
+Close
+Attachment has been removed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:37 PM</td>
+        <td>
+          Successfully Clicked on Expense/Settlement section under EEOC Claims Details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:37 PM</td>
+        <td>
+          Successfully Clicked on Add Expense/Settlement button under EEOC Claims Details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:38 PM</td>
+        <td>
+          Successfully verified Payment Type Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:38 PM</td>
+        <td>
+          Successfully verified Invoice Number Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:38 PM</td>
+        <td>
+          Successfully Entered Invoice Number Text box for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:38 PM</td>
+        <td>
+          Successfully verified Attorney Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:38 PM</td>
+        <td>
+          Successfully Entered UnderWriter Text box for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:38 PM</td>
+        <td>
+          Successfully verified Inv.Date Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:38 PM</td>
+        <td>
+          Successfully Entered InvDate Text box for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:39 PM</td>
+        <td>
+          Successfully verified Inv.Date Paid Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:39 PM</td>
+        <td>
+          Successfully Entered InvDatePaid Text box for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:39 PM</td>
+        <td>
+          Successfully verified Fees Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:39 PM</td>
+        <td>
+          Successfully Entered Fees Text box for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:39 PM</td>
+        <td>
+          File Choosen button is provided for Add Expense/Settlement popup for EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:40 PM</td>
+        <td>
+          Successfully added a Expense/Settlement for EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:41 PM</td>
+        <td>
+          Invoice Data is Matched on Edit Expense/Settlement popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:41 PM</td>
+        <td>
+          Attorney Data is Matched on Edit Expense/Settlement popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:42 PM</td>
+        <td>
+          InvDate Data is Matched on Edit Expense/Settlement popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:42 PM</td>
+        <td>
+          InvDatePaid Data is Matched on Edit Expense/Settlement popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:42 PM</td>
+        <td>
+          Fees Data is Matched on Edit Expense/Settlement popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:42 PM</td>
+        <td>
+          Sucessfully edited Fees Data is on Edit Expense/Settlement popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:50 PM</td>
+        <td>
+          Sucessfully deleted added Manage Expense/Settlement
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:50 PM</td>
+        <td>
+          Successfully verified Inv.Date Label for New EEOC Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:50 PM</td>
+        <td>
+          Sucessfully Clicked Add Reserve Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:51 PM</td>
+        <td>
+          Sucessfully Verified Reserve Type Label in  Add Reserve popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:51 PM</td>
+        <td>
+          Sucessfully Verified Date Label in Add Reserve popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:51 PM</td>
+        <td>
+          Sucessfully Entered Date Text Box in Add Reserve popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:51 PM</td>
+        <td>
+          Sucessfully Verified Reserve Label in Add Reserve popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:51 PM</td>
+        <td>
+          Sucessfully Entered Reserve Text Box in Add Reserve popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:52 PM</td>
+        <td>
+          Sucessfully Added a Expense/Settlement Reserve 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:54 PM</td>
+        <td>
+          Sucessfully verified Date data on Edit Reserve Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:54 PM</td>
+        <td>
+          Sucessfully verified Reserve data on Edit Reserve Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:05:54 PM</td>
+        <td>
+          Sucessfully Edited Manage Reserve/Settlemetn data on Edit Reserve Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:02 PM</td>
+        <td>
+          Sucessfully deleted added Manage Expense/Settlement Reserve
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:02 PM</td>
+        <td>
+          submittingaEEOCForm is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="Shashank"
+          tag=""
+          device="chrome120">
+          <div class="test-detail">
+            <p class="name">Creating a Professional Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve </p>
+            <p class="text-sm">
+              <span>1:06:02 PM</span> / <span>00:01:18:963</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Creating a Professional Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve </h5>
+<span class='badge badge-success'>12.19.2023 1:06:02 PM</span>
+<span class='badge badge-danger'>12.19.2023 1:07:21 PM</span>
+<span class='badge badge-default'>00:01:18:963</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Shashank</span>
+<span class="badge badge-pill badge-default">chrome120</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:06:03 PM</td>
+        <td>
+          Chrome Browser launched successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:06:08 PM</td>
+        <td>
+          Successfully navigated to the url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:08 PM</td>
+        <td>
+          Title Matched
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:08 PM</td>
+        <td>
+          UserId TextBox is provided in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:08 PM</td>
+        <td>
+          Place Holder is provided for UserId TextBox in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:08 PM</td>
+        <td>
+          password TextBox is provided in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:08 PM</td>
+        <td>
+          Place Holder is provided for UserId TextBox in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:08 PM</td>
+        <td>
+          Clicked on Login button in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:06:20 PM</td>
+        <td>
+          Successfully navigated to home page of the application
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:06:21 PM</td>
+        <td>
+          Successfully navigated to Incident Management System page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:41 PM</td>
+        <td>
+          Successfully verified New Claim Option in Left Nav Bar of RMS Home Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:42 PM</td>
+        <td>
+          Successfully verified Professional Liability Claim Option Under New Claim in Left Nav Bar of RMS Home Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:42 PM</td>
+        <td>
+          Successfully verified Name Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:42 PM</td>
+        <td>
+          Successfully verified Name TextBox for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:42 PM</td>
+        <td>
+          Successfully verified Date of Incident Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:42 PM</td>
+        <td>
+          Successfully verified Date of Incident TextBox for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:43 PM</td>
+        <td>
+          Successfully verified Date of Entered By Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:43 PM</td>
+        <td>
+          Successfully verified Entered By TextBox for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:06:43 PM</td>
+        <td>
+          Captured Data of Entered By Text box in EEOC New Claim is System Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:43 PM</td>
+        <td>
+          Successfully verified Date of Birth Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:43 PM</td>
+        <td>
+          Successfully verified Date of Birth TextBox for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:43 PM</td>
+        <td>
+          Successfully verified DOB TextBox for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:43 PM</td>
+        <td>
+          Successfully verified MRN # Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:43 PM</td>
+        <td>
+          Successfully verified MRN Number TextBox for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:43 PM</td>
+        <td>
+          Successfully verified Litigation Claim # Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:44 PM</td>
+        <td>
+          Successfully verified Litigation Claim # TextBox for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:44 PM</td>
+        <td>
+          Successfully verified Date Filed Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:44 PM</td>
+        <td>
+          Successfully verified Date Filed TextBox for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:44 PM</td>
+        <td>
+          Successfully verified Date Closed Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:44 PM</td>
+        <td>
+          Successfully verified Date Closed TextBox for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:44 PM</td>
+        <td>
+          Successfully verified Attorney Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:44 PM</td>
+        <td>
+          Successfully verified Attorney TextBox for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:45 PM</td>
+        <td>
+          Successfully verified Full Description Report Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:45 PM</td>
+        <td>
+          Successfully verified Full Description Report TextBox for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:45 PM</td>
+        <td>
+          Successfully verified Settlement Reserve Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:45 PM</td>
+        <td>
+          Successfully verified Settlement Reserve TextBox for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:45 PM</td>
+        <td>
+          Successfully verified Settlement Reserve Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:45 PM</td>
+        <td>
+          Successfully verified Settlement Reserve TextBox for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:45 PM</td>
+        <td>
+          Successfully verified Settlement Reserve Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:48 PM</td>
+        <td>
+          Title Textbox is provided for attachment popup for Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:48 PM</td>
+        <td>
+          File Choosen button is provided for attachment popup for Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:48 PM</td>
+        <td>
+          File Upload button is provided for attachment popup for Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:50 PM</td>
+        <td>
+          Sucessfully Added a attachment to the Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:06:50 PM</td>
+        <td>
+          Verifyed attachment icon button under Actions for Professional Liability Claim in Claim list page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:50 PM</td>
+        <td>
+          Delete button is provided for attachment popup for Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:56 PM</td>
+        <td>
+          Attachement removed Successfully for Professional Liability Claim×
+Close
+Attachment has been removed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:57 PM</td>
+        <td>
+          Successfully Clicked on Manage Expense/Settlement Paid  section under Professional Liability Claims Details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:57 PM</td>
+        <td>
+          Successfully Clicked on Add Expense/Settlement button under Professional Liability Claims Details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:58 PM</td>
+        <td>
+          Successfully verified Payment Type Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:58 PM</td>
+        <td>
+          Successfully verified Invoice Number Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:58 PM</td>
+        <td>
+          Successfully Entered Invoice Number Text box for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:58 PM</td>
+        <td>
+          Successfully verified Attorney Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:58 PM</td>
+        <td>
+          Successfully Entered UnderWriter Text box for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:58 PM</td>
+        <td>
+          Successfully verified Inv.Date Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:58 PM</td>
+        <td>
+          Successfully Entered InvDate Text box for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:58 PM</td>
+        <td>
+          Successfully verified Inv.Date Paid Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:59 PM</td>
+        <td>
+          Successfully Entered InvDatePaid Text box for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:59 PM</td>
+        <td>
+          Successfully verified Fees Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:59 PM</td>
+        <td>
+          Successfully Entered Fees Text box for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:06:59 PM</td>
+        <td>
+          File Choosen button is provided for Add Expense/Settlement popup for Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:00 PM</td>
+        <td>
+          Successfully added a Expense/Settlement for Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:01 PM</td>
+        <td>
+          Invoice Data is Matched on Edit Expense/Settlement popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:01 PM</td>
+        <td>
+          Attorney Data is Matched on Edit Expense/Settlement popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:01 PM</td>
+        <td>
+          InvDate Data is Matched on Edit Expense/Settlement popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:01 PM</td>
+        <td>
+          InvDatePaid Data is Matched on Edit Expense/Settlement popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:01 PM</td>
+        <td>
+          Fees Data is Matched on Edit Expense/Settlement popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:01 PM</td>
+        <td>
+          Sucessfully edited Fees Data is on Edit Expense/Settlement popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:09 PM</td>
+        <td>
+          Sucessfully deleted added Manage Expense/Settlement
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:10 PM</td>
+        <td>
+          Successfully verified Inv.Date Label for New Professional Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:10 PM</td>
+        <td>
+          Sucessfully Clicked Add Reserve Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:10 PM</td>
+        <td>
+          Sucessfully Verified Reserve Type Label in  Add Reserve popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:10 PM</td>
+        <td>
+          Sucessfully Verified Date Label in Add Reserve popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:10 PM</td>
+        <td>
+          Sucessfully Entered Date Text Box in Add Reserve popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:11 PM</td>
+        <td>
+          Sucessfully Verified Reserve Label in Add Reserve popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:11 PM</td>
+        <td>
+          Sucessfully Entered Reserve Text Box in Add Reserve popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:12 PM</td>
+        <td>
+          Sucessfully Added a Expense/Settlement Reserve 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:13 PM</td>
+        <td>
+          Sucessfully verified Date data on Edit Reserve Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:13 PM</td>
+        <td>
+          Sucessfully verified Reserve data on Edit Reserve Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:13 PM</td>
+        <td>
+          Sucessfully Edited Manage Reserve/Settlemetn data on Edit Reserve Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:21 PM</td>
+        <td>
+          Sucessfully deleted added Manage Expense/Settlement Reserve
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:21 PM</td>
+        <td>
+          submittingaEEOCForm is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author="Shashank"
+          tag=""
+          device="chrome120">
+          <div class="test-detail">
+            <p class="name">Creating a General Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve </p>
+            <p class="text-sm">
+              <span>1:07:21 PM</span> / <span>00:01:22:543</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Creating a General Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve </h5>
+<span class='badge badge-success'>12.19.2023 1:07:21 PM</span>
+<span class='badge badge-danger'>12.19.2023 1:08:43 PM</span>
+<span class='badge badge-default'>00:01:22:543</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Shashank</span>
+<span class="badge badge-pill badge-default">chrome120</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:07:22 PM</td>
+        <td>
+          Chrome Browser launched successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:07:27 PM</td>
+        <td>
+          Successfully navigated to the url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:27 PM</td>
+        <td>
+          Title Matched
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:27 PM</td>
+        <td>
+          UserId TextBox is provided in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:28 PM</td>
+        <td>
+          Place Holder is provided for UserId TextBox in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:28 PM</td>
+        <td>
+          password TextBox is provided in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:28 PM</td>
+        <td>
+          Place Holder is provided for UserId TextBox in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:07:28 PM</td>
+        <td>
+          Clicked on Login button in login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:07:41 PM</td>
+        <td>
+          Successfully navigated to home page of the application
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:07:41 PM</td>
+        <td>
+          Successfully navigated to Incident Management System page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:02 PM</td>
+        <td>
+          Successfully verified New Claim Option in Left Nav Bar of RMS Home Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:03 PM</td>
+        <td>
+          Successfully verified General Liability Claim Option Under New Claim in Left Nav Bar of RMS Home Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:03 PM</td>
+        <td>
+          Successfully verified Name Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:04 PM</td>
+        <td>
+          Successfully verified Name TextBox for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:04 PM</td>
+        <td>
+          Successfully verified Date of Incident Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:04 PM</td>
+        <td>
+          Successfully verified Date of Incident TextBox for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:04 PM</td>
+        <td>
+          Successfully verified Date of Entered By Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:04 PM</td>
+        <td>
+          Successfully verified Entered By TextBox for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:08:04 PM</td>
+        <td>
+          Captured Data of Entered By Text box in EEOC New Claim is System Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:04 PM</td>
+        <td>
+          Successfully verified Date of Birth Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:04 PM</td>
+        <td>
+          Successfully verified Date of Birth TextBox for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:04 PM</td>
+        <td>
+          Successfully verified DOB TextBox for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:05 PM</td>
+        <td>
+          Successfully verified MRN # Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:05 PM</td>
+        <td>
+          Successfully verified MRN Number TextBox for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:05 PM</td>
+        <td>
+          Successfully verified Litigation Claim # Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:05 PM</td>
+        <td>
+          Successfully verified Litigation Claim # TextBox for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:05 PM</td>
+        <td>
+          Successfully verified Date Filed Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:05 PM</td>
+        <td>
+          Successfully verified Date Filed TextBox for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:05 PM</td>
+        <td>
+          Successfully verified Date Closed Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:06 PM</td>
+        <td>
+          Successfully verified Date Closed TextBox for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:06 PM</td>
+        <td>
+          Successfully verified Attorney Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:06 PM</td>
+        <td>
+          Successfully verified Attorney TextBox for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:06 PM</td>
+        <td>
+          Successfully verified Discrimination Charge Dropdown for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:06 PM</td>
+        <td>
+          Successfully verified Full Description Report Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:06 PM</td>
+        <td>
+          Successfully verified Full Description Report TextBox for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:06 PM</td>
+        <td>
+          Successfully verified Settlement Reserve Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:06 PM</td>
+        <td>
+          Successfully verified Settlement Reserve TextBox for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:07 PM</td>
+        <td>
+          Successfully verified Settlement Reserve Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:07 PM</td>
+        <td>
+          Successfully verified Settlement Reserve TextBox for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:07 PM</td>
+        <td>
+          Successfully verified Settlement Reserve Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:09 PM</td>
+        <td>
+          Title Textbox is provided for attachment popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:09 PM</td>
+        <td>
+          File Choosen button is provided for attachment popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:09 PM</td>
+        <td>
+          File Upload button is provided for attachment popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:11 PM</td>
+        <td>
+          Sucessfully Added a attachment to the General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:08:11 PM</td>
+        <td>
+          Verifyed attachment icon button under Actions for General Liability Claim in Claim list page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:12 PM</td>
+        <td>
+          Delete button is provided for attachment popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:18 PM</td>
+        <td>
+          Attachement removed Successfully for General Liability Claim×
+Close
+Attachment has been removed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:19 PM</td>
+        <td>
+          Successfully Clicked on Expense/Settlement section under General Liability Claims Details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:19 PM</td>
+        <td>
+          Successfully Clicked on Add Expense/Settlement button under General Liability Claims Details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:20 PM</td>
+        <td>
+          Successfully verified Payment Type Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:20 PM</td>
+        <td>
+          Successfully verified Invoice Number Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:20 PM</td>
+        <td>
+          Successfully Entered Invoice Number Text box for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:20 PM</td>
+        <td>
+          Successfully verified Attorney Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:20 PM</td>
+        <td>
+          Successfully Entered UnderWriter Text box for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:20 PM</td>
+        <td>
+          Successfully verified Inv.Date Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:20 PM</td>
+        <td>
+          Successfully Entered InvDate Text box for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:21 PM</td>
+        <td>
+          Successfully verified Inv.Date Paid Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:21 PM</td>
+        <td>
+          Successfully Entered InvDatePaid Text box for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:21 PM</td>
+        <td>
+          Successfully verified Fees Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:21 PM</td>
+        <td>
+          Successfully Entered Fees Text box for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:21 PM</td>
+        <td>
+          File Choosen button is provided for Add Expense/Settlement popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:22 PM</td>
+        <td>
+          Successfully added a Expense/Settlement for General Liability Claim for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:23 PM</td>
+        <td>
+          Invoice Data is Matched on Edit Expense/Settlement popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:24 PM</td>
+        <td>
+          Attorney Data is Matched on Edit Expense/Settlement popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:24 PM</td>
+        <td>
+          InvDate Data is Matched on Edit Expense/Settlement popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:24 PM</td>
+        <td>
+          InvDatePaid Data is Matched on Edit Expense/Settlement popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:24 PM</td>
+        <td>
+          Fees Data is Matched on Edit Expense/Settlement popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:24 PM</td>
+        <td>
+          Sucessfully edited Fees Data is on Edit Expense/Settlement popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:32 PM</td>
+        <td>
+          Sucessfully deleted added Manage Expense/Settlement for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:32 PM</td>
+        <td>
+          Successfully verified Inv.Date Label for New General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:32 PM</td>
+        <td>
+          Sucessfully Clicked Add Reserve Button for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:33 PM</td>
+        <td>
+          Sucessfully Verified Reserve Type Label in  Add Reserve popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:33 PM</td>
+        <td>
+          Sucessfully Verified Date Label in Add Reserve popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:33 PM</td>
+        <td>
+          Sucessfully Entered Date Text Box in Add Reserve popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:33 PM</td>
+        <td>
+          Sucessfully Verified Reserve Label in Add Reserve popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:33 PM</td>
+        <td>
+          Sucessfully Entered Reserve Text Box in Add Reserve popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:34 PM</td>
+        <td>
+          Sucessfully Added a Expense/Settlement Reserve for General Liability Claim 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:36 PM</td>
+        <td>
+          Sucessfully verified Date data on Edit Reserve Popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:36 PM</td>
+        <td>
+          Sucessfully verified Reserve data on Edit Reserve Popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:36 PM</td>
+        <td>
+          Sucessfully Edited Manage Reserve/Settlemetn data on Edit Reserve Popup for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:43 PM</td>
+        <td>
+          Sucessfully deleted added Manage Expense/Settlement Reserve for General Liability Claim
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:08:43 PM</td>
+        <td>
+          submittingaEEOCForm is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view device-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Device</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">chrome120</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>chrome120</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:04:09 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Verify Claims Option Provided In Left NavBar In RMS</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:04:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Creating a EEOC Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:06:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Creating a Professional Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:07:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Creating a General Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve </a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">Shashank</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Shashank</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:04:09 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Verify Claims Option Provided In Left NavBar In RMS</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:04:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Creating a EEOC Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:06:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Creating a Professional Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:07:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Creating a General Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve </a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 19, 2023 01:04:09 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 19, 2023 01:08:44 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>4</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>4</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='91%'><b>237</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>22</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Verify Claims Option Provided In Left NavBar In RMS":44.166,"Creating a EEOC Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve ":68.028,"Creating a Professional Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve ":78.963,"Creating a General Liability Claim adding attachment , Managing Expense/Settlement , Expense/Settlement Reserve ":82.543
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>Shashank</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 device-container">
+<div class="card">
+<div class="card-header"><p>Device</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>chrome120</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>OS</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>11.0.19</td>
+</tr>
+<tr>
+<td>App URL</td>
+<td>https://demo.healthdox.com/GRCTraining/Account/Login</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>admin</td>
+</tr>
+<tr>
+<td>Password</td>
+<td>Indidge$1</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 4,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 237,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 22
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript">document.getElementsByClassName('logo')[0].style.display='none';</script></body>
+</html>
